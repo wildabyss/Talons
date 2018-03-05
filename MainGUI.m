@@ -62,11 +62,6 @@ initialize_gui(hObject, handles, false);
 % UIWAIT makes MainGUI wait for user response (see UIRESUME)
 % uiwait(handles.MainGUI);
 
-% add icon
-imArr = imread('./icon.png');
-axes(handles.figIcon);
-imshow(imArr);
-
 % initialize variables
 mIncludePaths;
 clear_data();
