@@ -5,3 +5,4 @@ addpath('Performance')
 addpath('StabilityControl')
 addpath('Aerodynamics')
 addpath('DataParsing')
+addpath('Atmosphere');

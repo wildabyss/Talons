@@ -22,7 +22,7 @@ function varargout = MainGUI(varargin)
 
 % Edit the above text to modify the response to help MainGUI
 
-% Last Modified by GUIDE v2.5 16-Jun-2014 00:11:28
+% Last Modified by GUIDE v2.5 10-Mar-2018 10:59:51
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -311,8 +311,9 @@ function cmdGroundHandling_Callback(hObject, eventdata, handles)
 GroundHandlingGUI;
 
 
-% --------------------------------------------------------------------
-function Untitled_1_Callback(hObject, eventdata, handles)
-% hObject    handle to Untitled_1 (see GCBO)
+% --- Executes on button press in cmdCalculator.
+function cmdCalculator_Callback(hObject, eventdata, handles)
+% hObject    handle to cmdCalculator (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+CalcGUI;
