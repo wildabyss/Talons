@@ -22,7 +22,7 @@ function varargout = MainGUI(varargin)
 
 % Edit the above text to modify the response to help MainGUI
 
-% Last Modified by GUIDE v2.5 10-Mar-2018 10:59:51
+% Last Modified by GUIDE v2.5 19-Mar-2018 21:55:27
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -254,14 +254,6 @@ function Propulsion_Callback(hObject, eventdata, handles)
 
 PropulsionGUI;
 
-% --- Executes on button press in Air.
-function Air_Callback(hObject, eventdata, handles)
-% hObject    handle to Air (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-
-AirGUI;
-
 % --- Executes on button press in Performance.
 function Performance_Callback(hObject, eventdata, handles)
 % hObject    handle to Performance (see GCBO)
@@ -317,3 +309,11 @@ function cmdCalculator_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 CalcGUI;
+
+
+% --- Executes on button press in btnConditions.
+function btnConditions_Callback(hObject, eventdata, handles)
+% hObject    handle to btnConditions (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+AirGUI;
