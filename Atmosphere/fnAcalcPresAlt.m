@@ -1,7 +1,7 @@
 function pressure_altitude = fnAcalcPresAlt(delta, unit)
 % Calculate the pressure altitude given pressure ratio
 % Input: delta: pressure ratio
-%        unit: 0 = imperial, 1 = SI
+%        unit: 0 = imperial (ft), 1 = SI (m)
 % Output: pressure altitude in ft or m
 
 h_bound = delta > 0.2234;

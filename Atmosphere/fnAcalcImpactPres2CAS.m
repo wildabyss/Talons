@@ -1,4 +1,9 @@
 function CAS = fnAcalcImpactPres2CAS(qc, unit)
+% Convert impact pressure to CAS
+%
+% Inputs:	qc: impact pressure
+%			unit: 0 for imperial (kt, psf), 1 for SI (m/s, N/sq.m)
+% Outputs:	calibrated airspeed (CAS)
 
 a0 = fnAcalcSpeedOfSound(1, unit);
 if unit==0

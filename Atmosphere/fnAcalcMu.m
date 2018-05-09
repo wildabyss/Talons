@@ -1,5 +1,9 @@
 function mu = fnAcalcMu(theta, unit)
 % Calculate the dynamic viscosity of air
+%
+% Inputs:	theta: temperature ratio
+%			unit: 0 for imperial (slug/ft/sec), 1 for SI (Pa.sec)
+% Outputs:	dynamic viscosity (mu)
 
 OAT0 = 288.15;
 C1 = 1.458e-6; % kg/m/s/sqrt(K)

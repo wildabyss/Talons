@@ -1,4 +1,10 @@
 function q = fnAcalcCAS2DynPres(CAS, delta, unit)
+% Convert CAS to dynamic pressure
+%
+% Inputs:	CAS: calibrated airspeed
+%			delta: pressure ratio
+%			unit: 0 for imperial (kt, psf), 1 for SI (m/s, N/sq.m)
+% Outputs:	dynamic pressure
 
 % Impact pressure
 a0 = fnAcalcSpeedOfSound(1, unit);

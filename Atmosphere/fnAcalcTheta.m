@@ -1,4 +1,10 @@
 function temp_ratio = fnAcalcTheta(delta, DISA)
+% Calculate temperature ratio (theta) given pressure ratio (delta) and 
+% delta ISA temperature in C
+%
+% Inputs:	delta: pressure ratio
+%			DISA: delta ISA temperature in C
+% Outputs:	temperature ratio (theta)
 
 h_ft = fnAcalcPresAlt(delta, 0);
 h_bound = h_ft < 36089;

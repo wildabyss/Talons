@@ -2,7 +2,7 @@ function P = fnAcalcStaticPres(delta, unit)
 % Calculate static pressure (ambient pressure) given delta
 %
 % Inputs: delta: pressure ratio
-%         unit: 0=imperial, 1=SI
+%         unit: 0=imperial (psf), 1=SI (N/sq.m)
 % Outputs: static pressure in lbf/sq.ft or N/sq.m
 
 
