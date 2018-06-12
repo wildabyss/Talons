@@ -1,15 +1,20 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration file="C:\Simulation\Talons\AirspeedCalculator.prj" location="C:\Simulation\Talons" name="AirspeedCalculator" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="328047121" file="C:\Simulation\Talons\AirspeedCalculator.prj" location="C:\Simulation\Talons" name="AirspeedCalculator" preferred-package-location="C:\Simulation\Talons\AirspeedCalculator\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>AirspeedCalculator</param.appname>
-    <param.icon />
-    <param.icons />
+    <param.icon>${PROJECT_ROOT}\AirspeedCalculator_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\AirspeedCalculator_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\AirspeedCalculator_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\AirspeedCalculator_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\AirspeedCalculator_resources\icon_16.png</file>
+    </param.icons>
     <param.version>1.0</param.version>
     <param.authnamewatermark>Jimmy Lu</param.authnamewatermark>
     <param.email />
     <param.company />
-    <param.summary />
+    <param.summary>Does your run of the mill aeronautical airspeed conversions</param.summary>
     <param.description />
-    <param.screenshot />
+    <param.screenshot>${PROJECT_ROOT}\AirspeedCalcIcon.png</param.screenshot>
     <param.guid />
     <param.installpath.string>\AirspeedCalculator\</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
@@ -27,21 +32,17 @@
     <param.web.mcr>true</param.web.mcr>
     <param.package.mcr>false</param.package.mcr>
     <param.no.mcr>false</param.no.mcr>
-    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.web.mcr.name>AirspeedCalculatorInstaller</param.web.mcr.name>
     <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
     <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
     <param.windows.command.prompt>true</param.windows.command.prompt>
     <param.create.log>false</param.create.log>
     <param.log.file />
     <unset>
-      <param.icon />
-      <param.icons />
       <param.version />
       <param.email />
       <param.company />
-      <param.summary />
       <param.description />
-      <param.screenshot />
       <param.guid />
       <param.installpath.string />
       <param.installpath.combo />
@@ -58,7 +59,6 @@
       <param.web.mcr />
       <param.package.mcr />
       <param.no.mcr />
-      <param.web.mcr.name />
       <param.package.mcr.name />
       <param.no.mcr.name />
       <param.windows.command.prompt />
